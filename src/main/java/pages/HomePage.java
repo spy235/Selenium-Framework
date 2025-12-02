@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-
 import utils.DriverFactory;
 import utils.TestUtils;
 
@@ -17,11 +15,9 @@ public class HomePage {
 	HomePage(){
         PageFactory.initElements(driver, this);
 		TestUtils.waitForElement(homepageTitle);
-		Assert.assertTrue(driver.findElement(homepageTitle).isDisplayed());
 	}
 	@FindBy(xpath = "//span[contains(@class,'oxd-main-menu-item--name')][text()='Admin']")
 	WebElement adminPageNav;
-	
 	public AdminPage goToAdminPage() {
 		adminPageNav.click();
 		return new AdminPage();

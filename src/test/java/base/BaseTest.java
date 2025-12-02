@@ -6,8 +6,11 @@ import org.testng.annotations.BeforeMethod;
 
 import utils.DriverFactory;
 
+
 public class BaseTest {
 	public WebDriver driver;
+	
+	
     @BeforeMethod
     public void setUp() {
         DriverFactory.initDriver();
