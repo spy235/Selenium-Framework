@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>TestNG:  Test Cucumber Signin CRM</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Cucumber Signin CRM</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 25 18:55:52 AEST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>211 seconds (211584 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cannatrek.runners.TestRunnerAllFeatureByTag.runScenario()'><b>runScenario</b><br>Test class: com.cannatrek.runners.TestRunnerAllFeatureByTag<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Validate Script Submission"</td>
+<td><div><pre>java.lang.AssertionError: Element not exist. By.xpath: //input[@value=&quot;Yes&quot;]
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+	at ✽.the user enters a valid email address and a valid password for &quot;dw_AdminUser&quot;(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:26)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2038966505", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2038966505'><pre>java.lang.AssertionError: Element not exist. By.xpath: //input[@value=&quot;Yes&quot;]
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+	at ✽.the user enters a valid email address and a valid password for &quot;dw_AdminUser&quot;(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:26)
+</pre></div></td>
+<td>37</td>
+<td>com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f</td></tr>
+<tr>
+<td title='com.cannatrek.runners.TestRunnerAllFeatureByTag.runScenario()'><b>runScenario</b><br>Test class: com.cannatrek.runners.TestRunnerAllFeatureByTag<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Deleting the myeden user", "Validate Script Submission"</td>
+<td><div><pre>java.lang.AssertionError: Element not exist. By.xpath: //input[@value=&quot;Yes&quot;]
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+	at ✽.the user enters a valid email address and a valid password for &quot;dw_AdminUser&quot;(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:79)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace135194470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace135194470'><pre>java.lang.AssertionError: Element not exist. By.xpath: //input[@value=&quot;Yes&quot;]
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+	at ✽.the user enters a valid email address and a valid password for &quot;dw_AdminUser&quot;(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:79)
+</pre></div></td>
+<td>36</td>
+<td>com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f</td></tr>
+<tr>
+<td title='com.cannatrek.runners.TestRunnerAllFeatureByTag.runScenario()'><b>runScenario</b><br>Test class: com.cannatrek.runners.TestRunnerAllFeatureByTag<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to signup as a patient", "Validate Script Submission"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserShouldBeRedirectedToTheDashboard(LoginSteps.java:57)
+	at ✽.the user should be redirected to the &quot;Email Verification - myeden&quot; page(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:17)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace928198409", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace928198409'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserShouldBeRedirectedToTheDashboard(LoginSteps.java:57)
+	at ✽.the user should be redirected to the &quot;Email Verification - myeden&quot; page(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:17)
+</pre></div></td>
+<td>53</td>
+<td>com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f</td></tr>
+<tr>
+<td title='com.cannatrek.runners.TestRunnerAllFeatureByTag.runScenario()'><b>runScenario</b><br>Test class: com.cannatrek.runners.TestRunnerAllFeatureByTag<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Validate Script Submission"</td>
+<td><div><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[text()=&quot;Authenticate your account&quot;]/../div[@class=&quot;login-form&quot;]//div[text()=&quot;To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account&quot;]/../../div/input[@placeholder=&quot;XXXXXX&quot;]
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clearAndFillText(WebUI.java:2653)
+	at com.cannatrek.myeden.stepdefinitions.SignupSteps.theUserEntersAValidSecurityCodeInTheInputField(SignupSteps.java:60)
+	at ✽.the user enters a valid security code in the input field(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:55)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace855115138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace855115138'><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[text()=&quot;Authenticate your account&quot;]/../div[@class=&quot;login-form&quot;]//div[text()=&quot;To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account&quot;]/../../div/input[@placeholder=&quot;XXXXXX&quot;]
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clearAndFillText(WebUI.java:2653)
+	at com.cannatrek.myeden.stepdefinitions.SignupSteps.theUserEntersAValidSecurityCodeInTheInputField(SignupSteps.java:60)
+	at ✽.the user enters a valid security code in the input field(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:55)
+</pre></div></td>
+<td>30</td>
+<td>com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f</td></tr>
+<tr>
+<td title='com.cannatrek.runners.TestRunnerAllFeatureByTag.runScenario()'><b>runScenario</b><br>Test class: com.cannatrek.runners.TestRunnerAllFeatureByTag<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Validate Script Submission"</td>
+<td><div><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[text()=&apos;Ty8XO8bqYmk2QtmLHN&apos;]
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.pharmacy.stepdefinitions.LogInSteps_pharmacy.the_user_clicks_on_the_submitted_script(LogInSteps_pharmacy.java:49)
+	at ✽.the user clicks on the submitted script(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:72)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace362095723", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace362095723'><pre>java.lang.AssertionError: Element not exist. By.xpath: //div[text()=&apos;Ty8XO8bqYmk2QtmLHN&apos;]
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+	at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+	at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+	at com.cannatrek.pharmacy.stepdefinitions.LogInSteps_pharmacy.the_user_clicks_on_the_submitted_script(LogInSteps_pharmacy.java:49)
+	at ✽.the user clicks on the submitted script(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:72)
+</pre></div></td>
+<td>29</td>
+<td>com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f</td></tr>
+</table><p>
+</body>
+</html>

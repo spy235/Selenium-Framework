@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-25T18:55:52 AEST" name="Suite Cucumber" finished-at="2024-06-25T18:59:24 AEST" duration-ms="211584">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-25T18:55:52 AEST" name="Test Cucumber Signin CRM" finished-at="2024-06-25T18:59:24 AEST" duration-ms="211584">
+      <class name="com.cannatrek.runners.TestRunnerAllFeatureByTag">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:55:52 AEST" name="setUpClass" finished-at="2024-06-25T18:55:56 AEST" duration-ms="3591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4136cb25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:55:56 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T18:56:49 AEST" duration-ms="53412" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to signup as a patient"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserShouldBeRedirectedToTheDashboard(LoginSteps.java:57)
+at ✽.the user should be redirected to the "Email Verification - myeden" page(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:56:49 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T18:57:26 AEST" duration-ms="37041" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element not exist. By.xpath: //input[@value="Yes"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element not exist. By.xpath: //input[@value="Yes"]
+at org.testng.Assert.fail(Assert.java:111)
+at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+at ✽.the user enters a valid email address and a valid password for "dw_AdminUser"(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:57:26 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T18:57:57 AEST" duration-ms="30106" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element not exist. By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element not exist. By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+at org.testng.Assert.fail(Assert.java:111)
+at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+at com.cannatrek.keywords.WebUI.clearAndFillText(WebUI.java:2653)
+at com.cannatrek.myeden.stepdefinitions.SignupSteps.theUserEntersAValidSecurityCodeInTheInputField(SignupSteps.java:60)
+at ✽.the user enters a valid security code in the input field(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:55)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:57:57 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T18:58:26 AEST" duration-ms="29158" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element not exist. By.xpath: //div[text()='Ty8XO8bqYmk2QtmLHN']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element not exist. By.xpath: //div[text()='Ty8XO8bqYmk2QtmLHN']
+at org.testng.Assert.fail(Assert.java:111)
+at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+at com.cannatrek.pharmacy.stepdefinitions.LogInSteps_pharmacy.the_user_clicks_on_the_submitted_script(LogInSteps_pharmacy.java:49)
+at ✽.the user clicks on the submitted script(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:72)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:58:26 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T18:59:02 AEST" duration-ms="36224" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deleting the myeden user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element not exist. By.xpath: //input[@value="Yes"]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element not exist. By.xpath: //input[@value="Yes"]
+at org.testng.Assert.fail(Assert.java:111)
+at com.cannatrek.keywords.WebUI.waitForElementPresent(WebUI.java:3081)
+at com.cannatrek.keywords.WebUI.waitForElementVisible(WebUI.java:2989)
+at com.cannatrek.keywords.WebUI.clickElement(WebUI.java:2673)
+at com.cannatrek.myeden.pages.LogInPage.enterEmailAndPassword(LogInPage.java:43)
+at com.cannatrek.myeden.stepdefinitions.LoginSteps.theUserEntersAValidEmailAddressAndAValidPassword(LoginSteps.java:36)
+at ✽.the user enters a valid email address and a valid password for "dw_AdminUser"(file:///C:/Workspace/CannatrekAF/src/test/resources/scenario/ScriptSubmission.feature:79)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@4992613f]" started-at="2024-06-25T18:59:02 AEST" name="tearDownClass" finished-at="2024-06-25T18:59:24 AEST" duration-ms="21938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cannatrek.runners.TestRunnerAllFeatureByTag -->
+    </test> <!-- Test Cucumber Signin CRM -->
+  </suite> <!-- Suite Cucumber -->
+</testng-results>

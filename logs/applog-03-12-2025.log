@@ -1,0 +1,707 @@
+[INFO] 20-09-2024 11:11:07 [main] [LogUtils] - ================ BEFORE ALL ================
+[WARN] 20-09-2024 11:11:07 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 20-09-2024 11:11:07 [main] [LogUtils] - Deleted directory target/allure-results
+[INFO] 20-09-2024 11:11:07 [main] [LogUtils] - Deleted directory ExportData
+[INFO] 20-09-2024 11:11:12 [main] [LogUtils] - Scenario Name: User can sign up as a patient on the myeden application
+[INFO] 20-09-2024 11:11:47 [main] [LogUtils] - Open website with URL: http://app.non.myeden.com/
+[INFO] 20-09-2024 11:11:47 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:11:48 [main] [LogUtils] - Get Page Title: Sign in - myeden
+[INFO] 20-09-2024 11:11:50 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:11:50 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:11:50 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:11:50 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:11:51 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:11:51 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:11:51 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:11:51 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:11:51 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:11:55 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:11:58 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:11:58 [main] [LogUtils] - Clear and Fill rakesh.dbizai@gmail.com on By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:11:58 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:01 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:12:05 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:12:05 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:12:05 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:07 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:12:07 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:07 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:12:07 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:08 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:11 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:12:11 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:12:11 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:12:11 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:12:21 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:12:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:12:24 [main] [LogUtils] - Clear and Fill 424262 on By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:12:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:26 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:12:26 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:26 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:12:26 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@56ca8151
+[INFO] 20-09-2024 11:12:27 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:29 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:30 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:32 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:33 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:35 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:12:37 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:13:41 [main] [LogUtils] - ================ BEFORE ALL ================
+[WARN] 20-09-2024 11:13:41 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 20-09-2024 11:13:42 [main] [LogUtils] - Deleted directory target/allure-results
+[INFO] 20-09-2024 11:13:42 [main] [LogUtils] - Deleted directory ExportData
+[INFO] 20-09-2024 11:13:45 [main] [LogUtils] - Scenario Name: User can sign up as a patient on the myeden application
+[INFO] 20-09-2024 11:14:15 [main] [LogUtils] - Open website with URL: http://app.non.myeden.com/
+[INFO] 20-09-2024 11:14:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:17 [main] [LogUtils] - Get Page Title: Sign in - myeden
+[INFO] 20-09-2024 11:14:18 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:14:18 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:18 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:14:18 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:19 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:14:20 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:14:20 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:14:20 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:14:20 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:14:23 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:14:26 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:14:26 [main] [LogUtils] - Clear and Fill rakesh.dbizai@gmail.com on By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:14:26 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:30 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:14:33 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:14:33 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:14:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:35 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:14:35 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:35 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:14:35 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:36 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:14:39 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:14:39 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:14:39 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:14:39 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:14:48 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:14:52 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:14:52 [main] [LogUtils] - Clear and Fill 424262 on By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:14:52 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:53 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:14:53 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:53 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:14:53 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@2ef86335
+[INFO] 20-09-2024 11:14:55 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:14:56 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:14:58 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:14:59 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:01 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:03 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:04 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:06 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:07 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:09 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:10 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:12 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:14 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:15 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:17 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:18 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:20 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:21 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:23 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:25 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:15:28 [main] [LogUtils] - Scenario Name: Update the new user profile settings in the Dynamic Web platform
+[INFO] 20-09-2024 11:15:33 [main] [LogUtils] - Navigate to URL: https://pharmacy.non.cannatrek.com/Admin/access/default.aspx
+[INFO] 20-09-2024 11:15:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:39 [main] [LogUtils] - Click on element with JS: By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:15:39 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:39 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:15:39 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:39 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:15:39 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:15:39 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:15:39 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:15:42 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:15:46 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:15:46 [main] [LogUtils] - Clear and Fill rakesh.chandra@cannatrek.com on By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:15:46 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:47 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:15:47 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:48 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:15:48 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:51 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:15:54 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:15:55 [main] [LogUtils] - Clear and Fill !vorySilver12 on By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:15:55 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:58 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:15:58 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:15:58 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:15:58 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:24 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:16:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:24 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:16:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:31 [main] [LogUtils] - Get Page Title: Cannatrek (9.13.11)
+[INFO] 20-09-2024 11:16:32 [main] [LogUtils] - Click on element with JS: By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:16:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:32 [main] [LogUtils] - Clicked on the element By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:16:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:38 [main] [LogUtils] - Switch to Frame by ID or Name. Users-iframe
+[INFO] 20-09-2024 11:16:39 [main] [LogUtils] - Click on element with JS: By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:16:39 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:40 [main] [LogUtils] - Clicked on the element By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:16:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:40 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:16:40 [main] [TestDataProvider] - Username successfully fetched
+[INFO] 20-09-2024 11:16:42 [main] [LogUtils] - Switch to Frame by ID or Name. main-iframe
+[INFO] 20-09-2024 11:16:46 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:16:49 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:16:49 [main] [LogUtils] - Clear and Fill Automation Test on By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:16:49 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:52 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:16:52 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:16:53 [main] [LogUtils] - Clicked on the element By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:16:53 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@29db3f23
+[INFO] 20-09-2024 11:20:54 [main] [LogUtils] - ================ BEFORE ALL ================
+[WARN] 20-09-2024 11:20:54 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 20-09-2024 11:20:55 [main] [LogUtils] - Deleted directory target/allure-results
+[INFO] 20-09-2024 11:20:55 [main] [LogUtils] - Deleted directory ExportData
+[INFO] 20-09-2024 11:20:58 [main] [LogUtils] - Scenario Name: User can sign up as a patient on the myeden application
+[INFO] 20-09-2024 11:21:30 [main] [LogUtils] - Open website with URL: http://app.non.myeden.com/
+[INFO] 20-09-2024 11:21:30 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:31 [main] [LogUtils] - Get Page Title: Sign in - myeden
+[INFO] 20-09-2024 11:21:33 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:21:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:33 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()="Don't have an account?"]/span[text()='Sign up']
+[INFO] 20-09-2024 11:21:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:34 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:21:34 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:21:34 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:21:34 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:21:34 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:21:37 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:21:41 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:21:41 [main] [LogUtils] - Clear and Fill rakesh.dbizai@gmail.com on By.xpath: //div[text()='Create an account']/parent::div/..//label/div[text()='Email Address']/parent::label/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:21:41 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:44 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:21:48 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:21:48 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //div[text()='Set a Password']/../..//span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:21:48 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:49 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:21:49 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:50 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Create Account']
+[INFO] 20-09-2024 11:21:50 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:21:51 [main] [LogUtils] - Get Page Title: Register - myeden
+[INFO] 20-09-2024 11:21:54 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:21:54 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:21:54 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:21:54 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:22:04 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:22:07 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:22:07 [main] [LogUtils] - Clear and Fill 400585 on By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:22:07 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:08 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:22:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:09 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:22:09 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:10 [main] [LogUtils] - Get Page Title: Email Verification - myeden
+[INFO] 20-09-2024 11:22:10 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:22:10 [main] [TestDataProvider] - Firstname successfully fetched
+[INFO] 20-09-2024 11:22:10 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:22:10 [main] [TestDataProvider] - Lastname successfully fetched
+[INFO] 20-09-2024 11:22:13 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="First Name"]
+[INFO] 20-09-2024 11:22:17 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="First Name"]
+[INFO] 20-09-2024 11:22:17 [main] [LogUtils] - Clear and Fill Automation on By.xpath: //input[@placeholder="First Name"]
+[INFO] 20-09-2024 11:22:17 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Last Name"]
+[INFO] 20-09-2024 11:22:23 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Last Name"]
+[INFO] 20-09-2024 11:22:24 [main] [LogUtils] - Clear and Fill Tester on By.xpath: //input[@placeholder="Last Name"]
+[INFO] 20-09-2024 11:22:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Select"]
+[INFO] 20-09-2024 11:22:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Select"]
+[INFO] 20-09-2024 11:22:31 [main] [LogUtils] - Clear and Fill 25 Jan, 1996 on By.xpath: //input[@placeholder="Select"]
+[INFO] 20-09-2024 11:22:31 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:32 [main] [LogUtils] - Verify element present By.xpath: //input[@value="Australia"]
+[INFO] 20-09-2024 11:22:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:34 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@class="authentication-text"][text()="Next"]
+[INFO] 20-09-2024 11:22:34 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:34 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class="authentication-text"][text()="Next"]
+[INFO] 20-09-2024 11:22:34 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:38 [main] [LogUtils] - Verify element present By.xpath: //div[@class="SnackbarItem-message"][text()="Login successful"]
+[INFO] 20-09-2024 11:22:38 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@65f913fd
+[INFO] 20-09-2024 11:22:40 [main] [LogUtils] - Get Page Title: Email Verification - myeden
+[INFO] 20-09-2024 11:23:07 [main] [LogUtils] - Get Page Title: My Doctor - myeden
+[INFO] 20-09-2024 11:23:10 [main] [LogUtils] - Scenario Name: Update the new user profile settings in the Dynamic Web platform
+[INFO] 20-09-2024 11:23:13 [main] [LogUtils] - Navigate to URL: https://pharmacy.non.cannatrek.com/Admin/access/default.aspx
+[INFO] 20-09-2024 11:23:13 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:17 [main] [LogUtils] - Click on element with JS: By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:23:17 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:17 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:23:17 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:17 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:23:17 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:23:17 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:23:17 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:23:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:23:23 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:23:24 [main] [LogUtils] - Clear and Fill rakesh.chandra@cannatrek.com on By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:23:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:25 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:23:25 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:25 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:23:25 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:29 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:23:32 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:23:32 [main] [LogUtils] - Clear and Fill !vorySilver12 on By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:23:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:35 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:23:35 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:36 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:23:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:23:52 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:23:52 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:00 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:24:00 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:06 [main] [LogUtils] - Get Page Title: Cannatrek (9.13.11)
+[INFO] 20-09-2024 11:24:08 [main] [LogUtils] - Click on element with JS: By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:24:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:08 [main] [LogUtils] - Clicked on the element By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:24:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:14 [main] [LogUtils] - Switch to Frame by ID or Name. Users-iframe
+[INFO] 20-09-2024 11:24:15 [main] [LogUtils] - Click on element with JS: By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:24:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:15 [main] [LogUtils] - Clicked on the element By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:24:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:16 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:24:16 [main] [TestDataProvider] - Username successfully fetched
+[INFO] 20-09-2024 11:24:18 [main] [LogUtils] - Switch to Frame by ID or Name. main-iframe
+[INFO] 20-09-2024 11:24:21 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:24:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:24:25 [main] [LogUtils] - Clear and Fill Automation Test on By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:24:25 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:28 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:24:28 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:28 [main] [LogUtils] - Clicked on the element By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:24:28 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:32 [main] [LogUtils] - Click on element with JS: By.xpath: //tbody[@controlid="UserList"]/tr/td[text()="Automation Tester"]
+[INFO] 20-09-2024 11:24:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:32 [main] [LogUtils] - Clicked on the element By.xpath: //tbody[@controlid="UserList"]/tr/td[text()="Automation Tester"]
+[INFO] 20-09-2024 11:24:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:34 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='Identity Verified']
+[INFO] 20-09-2024 11:24:34 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:35 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='First Script Submitted']
+[INFO] 20-09-2024 11:24:35 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:36 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='Enable My Doctor Tab']
+[INFO] 20-09-2024 11:24:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:37 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='Enable Appointments']
+[INFO] 20-09-2024 11:24:37 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:39 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='Show Legal Popup Message']
+[INFO] 20-09-2024 11:24:39 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:40 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='First Appointment Booked']
+[INFO] 20-09-2024 11:24:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:41 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='First Appointment Completed']
+[INFO] 20-09-2024 11:24:41 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:42 [main] [LogUtils] - Click on element with JS: By.xpath: //label[text()='Follow Up Appointment Completed']
+[INFO] 20-09-2024 11:24:42 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:44 [main] [LogUtils] - Click on element with JS: By.xpath: //button[@id="cmdSaveAndClose"]
+[INFO] 20-09-2024 11:24:44 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@f8cddfc
+[INFO] 20-09-2024 11:24:52 [main] [LogUtils] - Scenario Name: New user can successfully submit a script on the myeden application
+[INFO] 20-09-2024 11:25:01 [main] [LogUtils] - Open website with URL: http://app.non.myeden.com/
+[INFO] 20-09-2024 11:25:01 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:02 [main] [LogUtils] - Get Page Title: Sign in - myeden
+[INFO] 20-09-2024 11:25:02 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:25:02 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:25:02 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:25:02 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:25:03 [main] [LogUtils] - Verify element visible By.xpath: //img[@src="/static/images/myeden_logo_dark_small.svg"]
+[INFO] 20-09-2024 11:25:05 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Welcome Back"]
+[INFO] 20-09-2024 11:25:06 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="It's lovely to see you again."]
+[INFO] 20-09-2024 11:25:09 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:25:12 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:25:12 [main] [LogUtils] - Clear and Fill rakesh.dbizai@gmail.com on By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:25:12 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:16 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:25:19 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:25:19 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:25:19 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:21 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Log In']
+[INFO] 20-09-2024 11:25:21 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:21 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Log In']
+[INFO] 20-09-2024 11:25:21 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:21 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:25:21 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:25:21 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:25:21 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:25:26 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:25:29 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:25:29 [main] [LogUtils] - Clear and Fill 138725 on By.xpath: //div[text()="Authenticate your account"]/../div[@class="login-form"]//div[text()="To protect your account, we have just sent you an email containing a security code. Please enter the code below to verify your account"]/../../div/input[@placeholder="XXXXXX"]
+[INFO] 20-09-2024 11:25:29 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:30 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:25:30 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:31 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()='Submit']
+[INFO] 20-09-2024 11:25:31 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:32 [main] [LogUtils] - Verify element present By.xpath: //div[@class="SnackbarItem-message"][text()="Login successful"]
+[INFO] 20-09-2024 11:25:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:36 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='I agree']
+[INFO] 20-09-2024 11:25:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:36 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='I agree']
+[INFO] 20-09-2024 11:25:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:40 [main] [LogUtils] - Click on element with JS: By.xpath: //*[text()='Submit New Script']
+[INFO] 20-09-2024 11:25:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:40 [main] [LogUtils] - Clicked on the element By.xpath: //*[text()='Submit New Script']
+[INFO] 20-09-2024 11:25:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:25:41 [main] [LogUtils] - Get Page Title: Upload Script - myeden
+[INFO] 20-09-2024 11:25:46 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="kyc-title kyc-title-40"]
+[INFO] 20-09-2024 11:25:50 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="kyc-title kyc-title-40"]
+[INFO] 20-09-2024 11:25:53 [main] [LogUtils] - Verify element visible By.xpath: //div[@class="kyc-title kyc-title-40"]
+[INFO] 20-09-2024 11:25:56 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Enter URL or Token"]
+[INFO] 20-09-2024 11:25:57 [main] [LogUtils] - Set text Ty8XO8bqYmk2QtmLHN on By.xpath: //input[@placeholder="Enter URL or Token"]
+[INFO] 20-09-2024 11:25:57 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:00 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:01 [main] [LogUtils] - Set text Dukasa Compounding Pharmacy, 111 Cannatrek Rd, Armadale, VIC, 3143 on By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:01 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:04 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:04 [main] [LogUtils] - Press key ARROW_DOWN on element By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:04 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:08 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:08 [main] [LogUtils] - Press key ENTER on element By.xpath: //input[@placeholder="Click here to get started"]
+[INFO] 20-09-2024 11:26:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:09 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@class="bottom-wrapper-button hide-mobile"]/div/button[text()='Submit']
+[INFO] 20-09-2024 11:26:09 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:09 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class="bottom-wrapper-button hide-mobile"]/div/button[text()='Submit']
+[INFO] 20-09-2024 11:26:09 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:18 [main] [LogUtils] - Click on element with JS: By.xpath: //div[contains(@class,'verified_desktop')]//*[text()='eScript Received']/..//*[text()='Thanks for submitting your script. Our pharmacists will review it shortly and we will message you as soon as it is/they are ready for purchasing.']/../..//button[text()='Thanks']
+[INFO] 20-09-2024 11:26:18 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:18 [main] [LogUtils] - Clicked on the element By.xpath: //div[contains(@class,'verified_desktop')]//*[text()='eScript Received']/..//*[text()='Thanks for submitting your script. Our pharmacists will review it shortly and we will message you as soon as it is/they are ready for purchasing.']/../..//button[text()='Thanks']
+[INFO] 20-09-2024 11:26:18 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@73e1afe4
+[INFO] 20-09-2024 11:26:20 [main] [LogUtils] - Scenario Name: Checking and approving a submitted script in the pharmacy portal.
+[INFO] 20-09-2024 11:26:32 [main] [LogUtils] - Open website with URL: http://pharmacy.non.myeden.com/
+[INFO] 20-09-2024 11:26:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:26:33 [main] [LogUtils] - Get Page Title: Login - myeden
+[INFO] 20-09-2024 11:26:33 [main] [TestDataProvider] - Searching 'pharmacy_User' in json data
+[INFO] 20-09-2024 11:26:33 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:26:33 [main] [TestDataProvider] - Searching 'pharmacy_User' in json data
+[INFO] 20-09-2024 11:26:33 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:26:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Location Name"]
+[INFO] 20-09-2024 11:26:40 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Location Name"]
+[INFO] 20-09-2024 11:26:40 [main] [LogUtils] - Clear and Fill rakesh.chandra_pharma@cannatrek.com on By.xpath: //input[@placeholder="Location Name"]
+[INFO] 20-09-2024 11:26:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:26:44 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:26:47 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:26:47 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:26:47 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:26:49 [main] [LogUtils] - Click on element with JS: By.xpath: //button/div[text()="Log In"]
+[INFO] 20-09-2024 11:26:49 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:26:49 [main] [LogUtils] - Clicked on the element By.xpath: //button/div[text()="Log In"]
+[INFO] 20-09-2024 11:26:49 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:26:50 [main] [LogUtils] - Get Page Title: Login - myeden
+[INFO] 20-09-2024 11:26:52 [main] [LogUtils] - Get Page Title: Login - myeden
+[INFO] 20-09-2024 11:26:56 [main] [LogUtils] - Get Page Title: Scripts - myeden
+[INFO] 20-09-2024 11:27:01 [main] [LogUtils] - Verify element visible By.xpath: //input[@value="New"]/../div
+[INFO] 20-09-2024 11:27:01 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="New"]/../div
+[INFO] 20-09-2024 11:27:01 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:03 [main] [LogUtils] - Click on element with JS: By.xpath: //li[text()='Unverified']
+[INFO] 20-09-2024 11:27:03 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:03 [main] [LogUtils] - Clicked on the element By.xpath: //li[text()='Unverified']
+[INFO] 20-09-2024 11:27:03 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:03 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:27:03 [main] [TestDataProvider] - Username successfully fetched
+[INFO] 20-09-2024 11:27:06 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Search Script"]
+[INFO] 20-09-2024 11:27:10 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Search Script"]
+[INFO] 20-09-2024 11:27:10 [main] [LogUtils] - Clear and Fill Automation Test on By.xpath: //input[@placeholder="Search Script"]
+[INFO] 20-09-2024 11:27:10 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:15 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Ty8XO8bqYmk2QtmLHN']/../../div/div)[1]
+[INFO] 20-09-2024 11:27:18 [main] [LogUtils] - Verify element visible By.xpath: (//div[text()='Ty8XO8bqYmk2QtmLHN']/../../div/div)[1]
+[WARN] 20-09-2024 11:27:18 [main] [InMemory] - Resetting in memory, updated values will be removed
+[INFO] 20-09-2024 11:27:19 [main] [LogUtils] - Click on element with JS: By.xpath: //div[text()='Ty8XO8bqYmk2QtmLHN']
+[INFO] 20-09-2024 11:27:19 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:19 [main] [LogUtils] - Clicked on the element By.xpath: //div[text()='Ty8XO8bqYmk2QtmLHN']
+[INFO] 20-09-2024 11:27:19 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:21 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Verify']
+[INFO] 20-09-2024 11:27:21 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:21 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Verify']
+[INFO] 20-09-2024 11:27:21 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:30 [main] [LogUtils] - Verify element present By.xpath: //div[text()='Successfully verified!']/../div[text()='This script is now verified']
+[INFO] 20-09-2024 11:27:30 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:38 [main] [LogUtils] - Click on element with JS: By.xpath: //ul/li[text()='Cannatrek T21® Kiama Flower']
+[INFO] 20-09-2024 11:27:38 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:41 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:44 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:45 [main] [LogUtils] - Clear and Fill Dr Clara Silva Suarez on By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:45 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:48 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:48 [main] [LogUtils] - Press key ARROW_DOWN on element By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:48 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:54 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:54 [main] [LogUtils] - Press key ENTER on element By.xpath: //input[@placeholder="Prescriber Name"]
+[INFO] 20-09-2024 11:27:54 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:57 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@id='prescriber_list_menu_approval_0']
+[INFO] 20-09-2024 11:27:57 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:27:57 [main] [LogUtils] - Clicked on the element By.xpath: //div[@id='prescriber_list_menu_approval_0']
+[INFO] 20-09-2024 11:27:57 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:28:01 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Accept']
+[INFO] 20-09-2024 11:28:01 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:28:01 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Accept']
+[INFO] 20-09-2024 11:28:01 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:28:06 [main] [LogUtils] - Verify element present By.xpath: //div[text()='Successfully accepted!']/../div[text()='This script is now available for the patient to place their order.']
+[INFO] 20-09-2024 11:28:06 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@3b6e493
+[INFO] 20-09-2024 11:28:39 [main] [LogUtils] - Scenario Name: User can successfully place and complete an order on the myeden application.
+[INFO] 20-09-2024 11:29:12 [main] [LogUtils] - Open website with URL: http://app.non.myeden.com/
+[INFO] 20-09-2024 11:29:12 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:14 [main] [LogUtils] - Get Page Title: Sign in - myeden
+[INFO] 20-09-2024 11:29:14 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:29:14 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:29:14 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:29:14 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:29:15 [main] [LogUtils] - Verify element visible By.xpath: //img[@src="/static/images/myeden_logo_dark_small.svg"]
+[INFO] 20-09-2024 11:29:16 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="Welcome Back"]
+[INFO] 20-09-2024 11:29:17 [main] [LogUtils] - Verify element visible By.xpath: //div[text()="It's lovely to see you again."]
+[INFO] 20-09-2024 11:29:20 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:29:24 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:29:24 [main] [LogUtils] - Clear and Fill rakesh.dbizai@gmail.com on By.xpath: //div[text()='Email']/parent::div//input[@placeholder='Email']
+[INFO] 20-09-2024 11:29:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:27 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:29:30 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:29:31 [main] [LogUtils] - Clear and Fill Cannatrek@123 on By.xpath: //span[@class='password-icon icon-eye-close']/../../../input[@placeholder='Password']
+[INFO] 20-09-2024 11:29:31 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:32 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Log In']
+[INFO] 20-09-2024 11:29:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:32 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Log In']
+[INFO] 20-09-2024 11:29:32 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:34 [main] [LogUtils] - Verify element present By.xpath: //div[@class="SnackbarItem-message"][text()="Login successful"]
+[INFO] 20-09-2024 11:29:34 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:40 [main] [LogUtils] - Verify element present By.xpath: //div[text()='Available To Order']/../../div[text()='Plant-based meds delivered to your door.']
+[INFO] 20-09-2024 11:29:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:41 [main] [LogUtils] - Verify element present By.xpath: //div[@class='med-list-body-container available']//div[@class='med-list-header-text left']/div[text()='Script 32980']
+[INFO] 20-09-2024 11:29:41 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:42 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@class='med-list-header-text left']/div[text()='Script 32980']/../../../..//div[text()="Add to Cart"]
+[INFO] 20-09-2024 11:29:42 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:43 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class='med-list-header-text left']/div[text()='Script 32980']/../../../..//div[text()="Add to Cart"]
+[INFO] 20-09-2024 11:29:43 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:47 [main] [LogUtils] - Verify element present By.xpath: //div[@class="SnackbarItem-message"][text()="Product added to cart"]
+[INFO] 20-09-2024 11:29:47 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:51 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@class="navbar-content-top-desktop"]//img[@alt="shop_icon"]
+[INFO] 20-09-2024 11:29:51 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:51 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class="navbar-content-top-desktop"]//img[@alt="shop_icon"]
+[INFO] 20-09-2024 11:29:51 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:52 [main] [LogUtils] - Get Page Title: My Basket - myeden
+[INFO] 20-09-2024 11:29:54 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Proceed to Checkout']
+[INFO] 20-09-2024 11:29:54 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:54 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Proceed to Checkout']
+[INFO] 20-09-2024 11:29:54 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:29:56 [main] [LogUtils] - Get Page Title: Checkout - myeden
+[INFO] 20-09-2024 11:29:56 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:29:56 [main] [TestDataProvider] - Address successfully fetched
+[INFO] 20-09-2024 11:29:56 [main] [TestDataProvider] - Searching 'myeden_ExistingUser' in json data
+[INFO] 20-09-2024 11:29:56 [main] [TestDataProvider] - Phone number successfully fetched
+[INFO] 20-09-2024 11:29:58 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//div[@class="search-address-container"]//button[text()='Edit']
+[INFO] 20-09-2024 11:29:59 [main] [LogUtils] - Clicked on the element By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//div[@class="search-address-container"]//button[text()='Edit']
+[INFO] 20-09-2024 11:29:59 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:02 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//input[@id="address-input-text"]
+[INFO] 20-09-2024 11:30:02 [main] [LogUtils] - Set text ra on By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//input[@id="address-input-text"] and press key ARROW_DOWN
+[INFO] 20-09-2024 11:30:02 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:06 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//input[@id="address-input-text"]
+[INFO] 20-09-2024 11:30:06 [main] [LogUtils] - Press key ENTER on element By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//input[@id="address-input-text"]
+[INFO] 20-09-2024 11:30:06 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:09 [main] [LogUtils] - Verify element visible By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//div[text()='Phone Number']/../..//input[@placeholder='Enter phone number']
+[INFO] 20-09-2024 11:30:10 [main] [LogUtils] - Set text 7406795124 on By.xpath: //div[contains(@class,'main-wrapper-content-desktop-cart')]//div[text()='Phone Number']/../..//input[@placeholder='Enter phone number']
+[INFO] 20-09-2024 11:30:10 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:12 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@class="main-wrapper-content-desktop-cart-right"]/div[@class="proceed_checkout_button_wrapper"]/button[@class="proceed_checkout_button  "]
+[INFO] 20-09-2024 11:30:12 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:12 [main] [LogUtils] - Clicked on the element By.xpath: //div[@class="main-wrapper-content-desktop-cart-right"]/div[@class="proceed_checkout_button_wrapper"]/button[@class="proceed_checkout_button  "]
+[INFO] 20-09-2024 11:30:12 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:13 [main] [LogUtils] - Get Page Title: Checkout - myeden
+[INFO] 20-09-2024 11:30:15 [main] [LogUtils] - Get Page Title: Checkout - myeden
+[INFO] 20-09-2024 11:30:17 [main] [LogUtils] - Get Page Title: Checkout - myeden
+[INFO] 20-09-2024 11:30:18 [main] [LogUtils] - Get Page Title: Payment Details - myeden
+[INFO] 20-09-2024 11:30:23 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Summary']/../div/span[contains(text(),'Order')]
+[INFO] 20-09-2024 11:30:26 [main] [LogUtils] - Verify element visible By.xpath: //div[text()='Summary']/../div/span[contains(text(),'Order')]
+[WARN] 20-09-2024 11:30:26 [main] [InMemory] - Resetting in memory, updated values will be removed
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Fetching card detail for: Card Number
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Card number successfully fetched
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Fetching card detail for: Card Name
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Card name successfully fetched
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Fetching card detail for: Card Expiry Month
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Card expiry month successfully fetched
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Fetching card detail for: Card Expiry Year
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Card expiry year successfully fetched
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Fetching card detail for: Card Code
+[INFO] 20-09-2024 11:30:26 [main] [TestDataProvider] - Card code successfully fetched
+[INFO] 20-09-2024 11:30:27 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id='#cardholder-name']
+[INFO] 20-09-2024 11:30:30 [main] [LogUtils] - Verify element visible By.xpath: //span[text()='Card Holder Name']/../../input[@placeholder='Name on card']
+[INFO] 20-09-2024 11:30:31 [main] [LogUtils] - Set text Test User on By.xpath: //span[text()='Card Holder Name']/../../input[@placeholder='Name on card']
+[INFO] 20-09-2024 11:30:31 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:32 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:30:33 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="#card-number"]
+[INFO] 20-09-2024 11:30:36 [main] [LogUtils] - Verify element visible By.xpath: //span[text()="Card Number"]/../..//input[@id="number"]
+[INFO] 20-09-2024 11:30:36 [main] [LogUtils] - Set text 5123450000000008 on By.xpath: //span[text()="Card Number"]/../..//input[@id="number"]
+[INFO] 20-09-2024 11:30:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:38 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:30:39 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="#expiry-month"]
+[INFO] 20-09-2024 11:30:42 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="expiryMonth"][@placeholder="MM"]
+[INFO] 20-09-2024 11:30:42 [main] [LogUtils] - Set text 01 on By.xpath: //input[@id="expiryMonth"][@placeholder="MM"]
+[INFO] 20-09-2024 11:30:42 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:43 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:30:45 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="#expiry-year"]
+[INFO] 20-09-2024 11:30:48 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="expiryYear"][@placeholder="YY"]
+[INFO] 20-09-2024 11:30:48 [main] [LogUtils] - Set text 39 on By.xpath: //input[@id="expiryYear"][@placeholder="YY"]
+[INFO] 20-09-2024 11:30:48 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:49 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:30:50 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="#security-code"]
+[INFO] 20-09-2024 11:30:54 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="securityCode"]
+[INFO] 20-09-2024 11:30:54 [main] [LogUtils] - Set text 100 on By.xpath: //input[@id="securityCode"]
+[INFO] 20-09-2024 11:30:54 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:55 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:30:56 [main] [LogUtils] - Click on element with JS: By.xpath: //button[text()='Pay and confirm']
+[INFO] 20-09-2024 11:30:56 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:30:58 [main] [LogUtils] - Switch to Default Content
+[INFO] 20-09-2024 11:31:04 [main] [LogUtils] - Verify element present By.xpath: //*[text()='Order Complete']/../*[text()='Stay tuned to your email for delivery updates']
+[INFO] 20-09-2024 11:31:04 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@43925564
+[INFO] 20-09-2024 11:31:06 [main] [LogUtils] - Scenario Name: Checking the order details in the Dynamic Web platform
+[INFO] 20-09-2024 11:31:10 [main] [LogUtils] - Navigate to URL: https://pharmacy.non.cannatrek.com/Admin/access/default.aspx
+[INFO] 20-09-2024 11:31:10 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:15 [main] [LogUtils] - Click on element with JS: By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:31:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:15 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:31:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:15 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:31:15 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:31:15 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:31:15 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:31:18 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:31:22 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:31:22 [main] [LogUtils] - Clear and Fill rakesh.chandra@cannatrek.com on By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:31:22 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:23 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:31:23 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:24 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:31:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:31:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:31:31 [main] [LogUtils] - Clear and Fill !vorySilver12 on By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:31:31 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:33 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:31:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:31:34 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:31:34 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:00 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:32:00 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:00 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:32:00 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:06 [main] [LogUtils] - Get Page Title: Cannatrek (9.13.11)
+[INFO] 20-09-2024 11:32:08 [main] [LogUtils] - Click on element with JS: By.xpath: //a[@data-target="Ecommerce"]
+[INFO] 20-09-2024 11:32:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:08 [main] [LogUtils] - Clicked on the element By.xpath: //a[@data-target="Ecommerce"]
+[INFO] 20-09-2024 11:32:08 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:13 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="Ecommerce-iframe"][@class="iframe-open"]
+[INFO] 20-09-2024 11:32:14 [main] [LogUtils] - Switch to Frame by Element. By.xpath: //iframe[@id="main-iframe"]
+[INFO] 20-09-2024 11:32:15 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@id="dtn14"]//a[@nodeid="14"]
+[INFO] 20-09-2024 11:32:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:15 [main] [LogUtils] - Clicked on the element By.xpath: //div[@id="dtn14"]//a[@nodeid="14"]
+[INFO] 20-09-2024 11:32:15 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:30 [main] [LogUtils] - Click on element with JS: By.xpath: //span[@id="dtn15_name"][text()='myeden']/..
+[INFO] 20-09-2024 11:32:30 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:30 [main] [LogUtils] - Clicked on the element By.xpath: //span[@id="dtn15_name"][text()='myeden']/..
+[INFO] 20-09-2024 11:32:30 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:33 [main] [LogUtils] - Verify element visible By.xpath: //div[@id="SearchInOrderIdFilter"]//input
+[INFO] 20-09-2024 11:32:36 [main] [LogUtils] - Verify element visible By.xpath: //div[@id="SearchInOrderIdFilter"]//input
+[INFO] 20-09-2024 11:32:37 [main] [LogUtils] - Clear and Fill 21844 on By.xpath: //div[@id="SearchInOrderIdFilter"]//input
+[INFO] 20-09-2024 11:32:37 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:40 [main] [LogUtils] - Verify element visible By.xpath: //label[text()='Search customer fields:']/../input
+[INFO] 20-09-2024 11:32:40 [main] [LogUtils] - Clear text in textbox By.xpath: //label[text()='Search customer fields:']/../input
+[INFO] 20-09-2024 11:32:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:44 [main] [LogUtils] - Verify element visible By.xpath: //label[text()='Search customer fields:']/../input
+[INFO] 20-09-2024 11:32:53 [main] [LogUtils] - Set text Automation on By.xpath: //label[text()='Search customer fields:']/../input and press key ENTER
+[INFO] 20-09-2024 11:32:53 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:57 [main] [LogUtils] - Click on element with JS: By.xpath: //tr[@itemid="MEORD21844"]
+[INFO] 20-09-2024 11:32:57 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:57 [main] [LogUtils] - Clicked on the element By.xpath: //tr[@itemid="MEORD21844"]
+[INFO] 20-09-2024 11:32:57 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:32:58 [main] [LogUtils] - Verify element present By.xpath: //*[@id="OrderLines_body"]//td[text()='Cannatrek T21® Kiama Flower']
+[INFO] 20-09-2024 11:32:58 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@7e03a6fb
+[INFO] 20-09-2024 11:33:00 [main] [LogUtils] - Verify element visible By.xpath: //span[@id='ctl00_ContentHolder_UCOrderEdit_OrderID'][text()="MEORD21844"]
+[INFO] 20-09-2024 11:33:01 [main] [LogUtils] - Verify element visible By.xpath: //input[@value="REC32980"]
+[INFO] 20-09-2024 11:33:03 [main] [LogUtils] - Scenario Name: Removing a myeden user from the Dynamic Web platform
+[INFO] 20-09-2024 11:33:10 [main] [LogUtils] - Navigate to URL: https://pharmacy.non.cannatrek.com/Admin/access/default.aspx
+[INFO] 20-09-2024 11:33:10 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:17 [main] [LogUtils] - Click on element with JS: By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:33:17 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:17 [main] [LogUtils] - Clicked on the element By.xpath: //a[text()="Sign in (Cannatrek)"]
+[INFO] 20-09-2024 11:33:17 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:17 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:33:17 [main] [TestDataProvider] - Email successfully fetched
+[INFO] 20-09-2024 11:33:17 [main] [TestDataProvider] - Searching 'dw_AdminUser' in json data
+[INFO] 20-09-2024 11:33:17 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 20-09-2024 11:33:21 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:33:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:33:24 [main] [LogUtils] - Clear and Fill rakesh.chandra@cannatrek.com on By.xpath: //input[@name="loginfmt"]
+[INFO] 20-09-2024 11:33:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:26 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:33:26 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:26 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Next"]
+[INFO] 20-09-2024 11:33:26 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:33:33 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:33:33 [main] [LogUtils] - Clear and Fill !vorySilver12 on By.xpath: //input[@placeholder="Password"]
+[INFO] 20-09-2024 11:33:33 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:35 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:33:35 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:33:36 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Sign in"]
+[INFO] 20-09-2024 11:33:36 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:05 [main] [LogUtils] - Click on element with JS: By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:34:05 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:12 [main] [LogUtils] - Clicked on the element By.xpath: //input[@value="Yes"]
+[INFO] 20-09-2024 11:34:12 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:18 [main] [LogUtils] - Get Page Title: Cannatrek (9.13.11)
+[INFO] 20-09-2024 11:34:19 [main] [LogUtils] - Click on element with JS: By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:34:19 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:20 [main] [LogUtils] - Clicked on the element By.xpath: //a[@data-target="Users"]
+[INFO] 20-09-2024 11:34:20 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:26 [main] [LogUtils] - Switch to Frame by ID or Name. Users-iframe
+[INFO] 20-09-2024 11:34:27 [main] [LogUtils] - Click on element with JS: By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:34:27 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:27 [main] [LogUtils] - Clicked on the element By.xpath: //aside[@id='sidebar']//button[contains(@class, 'tree-btn') and contains(@class, 'waves-effect') and @title='Search']
+[INFO] 20-09-2024 11:34:27 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:28 [main] [TestDataProvider] - Searching 'myeden_NewUser' in json data
+[INFO] 20-09-2024 11:34:28 [main] [TestDataProvider] - Username successfully fetched
+[INFO] 20-09-2024 11:34:30 [main] [LogUtils] - Switch to Frame by ID or Name. main-iframe
+[INFO] 20-09-2024 11:34:33 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:34:36 [main] [LogUtils] - Verify element visible By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:34:37 [main] [LogUtils] - Clear and Fill Automation Test on By.xpath: //input[@id="UserList:fSearch"]
+[INFO] 20-09-2024 11:34:37 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:40 [main] [LogUtils] - Click on element with JS: By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:34:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:40 [main] [LogUtils] - Clicked on the element By.xpath: //div[@onclick="List._submitForm('UserList:fSearch:SubmitCmd');"]
+[INFO] 20-09-2024 11:34:40 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:44 [main] [LogUtils] - Verify element visible By.xpath: //tbody[@controlid="UserList"]/tr/td[text()="Automation Tester"]
+[INFO] 20-09-2024 11:34:44 [main] [LogUtils] - Right click on element By.xpath: //tbody[@controlid="UserList"]/tr/td[text()="Automation Tester"]
+[INFO] 20-09-2024 11:34:44 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[INFO] 20-09-2024 11:34:46 [main] [LogUtils] - Click on element with JS: By.xpath: //a[@id="hrefcmdDeleteUser"]
+[INFO] 20-09-2024 11:34:46 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[ERROR] 20-09-2024 11:34:46 [main] [LogUtils] - Unable to take screenshot
+[ERROR] 20-09-2024 11:34:46 [main] [LogUtils] - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Delete user?}
+  (Session info: chrome=128.0.6613.138): Delete user?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd3b7626195435492019f549a0ad94aa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\RAKESH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63704/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd3b7626195435492019f549a0ad94aa
+[INFO] 20-09-2024 11:34:46 [main] [LogUtils] - Clicked on the element By.xpath: //a[@id="hrefcmdDeleteUser"]
+[INFO] 20-09-2024 11:34:46 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@631c4e65
+[ERROR] 20-09-2024 11:34:46 [main] [LogUtils] - Unable to take screenshot
+[ERROR] 20-09-2024 11:34:46 [main] [LogUtils] - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Delete user?}
+  (Session info: chrome=128.0.6613.138): Delete user?
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd3b7626195435492019f549a0ad94aa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\RAKESH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63704/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd3b7626195435492019f549a0ad94aa
+[INFO] 20-09-2024 11:34:47 [main] [LogUtils] - Click Accept on Alert.
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - ================ AFTER ALL ================
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - count_totalTCs: 7
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - count_passedTCs: 7
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 20-09-2024 11:34:49 [main] [LogUtils] - ********* RUN STARTED *********
+[INFO] 20-09-2024 11:34:50 [main] [LogUtils] - ********* RUN FINISHED *********

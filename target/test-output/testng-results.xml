@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T11:20:51 IST" name="Suite Cucumber" finished-at="2024-09-20T11:36:37 IST" duration-ms="945940">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-20T11:20:51 IST" name="Test Cucumber Signin CRM" finished-at="2024-09-20T11:36:37 IST" duration-ms="945940">
+      <class name="com.cannatrek.runners.TestRunnerAllFeatureByTag">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:20:51 IST" name="setUpClass" finished-at="2024-09-20T11:20:55 IST" duration-ms="3535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2583c3f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:20:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:23:08 IST" duration-ms="133100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can sign up as a patient on the myeden application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:23:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:24:50 IST" duration-ms="101793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update the new user profile settings in the Dynamic Web platform"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:24:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:26:19 IST" duration-ms="89019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New user can successfully submit a script on the myeden application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:26:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:28:37 IST" duration-ms="137870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking and approving a submitted script in the pharmacy portal."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:28:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:31:05 IST" duration-ms="148063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can successfully place and complete an order on the myeden application."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:31:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:33:02 IST" duration-ms="116861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking the order details in the Dynamic Web platform"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:33:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-20T11:34:49 IST" duration-ms="107673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Removing a myeden user from the Dynamic Web platform"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Script Submission"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cannatrek.runners.TestRunnerAllFeatureByTag@6a2eea2a]" started-at="2024-09-20T11:34:49 IST" name="tearDownClass" finished-at="2024-09-20T11:36:37 IST" duration-ms="107907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cannatrek.runners.TestRunnerAllFeatureByTag -->
+    </test> <!-- Test Cucumber Signin CRM -->
+  </suite> <!-- Suite Cucumber -->
+</testng-results>

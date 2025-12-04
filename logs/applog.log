@@ -1,0 +1,32 @@
+[INFO] 04-12-2025 12:21:54 [main] [LogUtils] - ================ BEFORE ALL ================
+[WARN] 04-12-2025 12:21:54 [main] [LogUtils] - Warning !! Can not Load All File.
+[INFO] 04-12-2025 12:21:55 [main] [LogUtils] - Deleted directory target/allure-results
+[INFO] 04-12-2025 12:21:55 [main] [LogUtils] - Deleted directory ExportData
+[INFO] 04-12-2025 12:22:02 [main] [LogUtils] - Scenario Name: User logs in successfully
+[INFO] 04-12-2025 12:22:06 [main] [LogUtils] - Open website with URL: https://opensource-demo.orangehrmlive.com/
+[INFO] 04-12-2025 12:22:06 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:06 [main] [TestDataProvider] - Searching 'app_User' in json data
+[INFO] 04-12-2025 12:22:06 [main] [TestDataProvider] - Username successfully fetched
+[INFO] 04-12-2025 12:22:06 [main] [TestDataProvider] - Searching 'app_User' in json data
+[INFO] 04-12-2025 12:22:06 [main] [TestDataProvider] - Password successfully fetched
+[INFO] 04-12-2025 12:22:10 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Username']
+[INFO] 04-12-2025 12:22:13 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Username']
+[INFO] 04-12-2025 12:22:13 [main] [LogUtils] - Clear and Fill Admin on By.xpath: //input[@placeholder='Username']
+[INFO] 04-12-2025 12:22:13 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:16 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Password']
+[INFO] 04-12-2025 12:22:19 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Password']
+[INFO] 04-12-2025 12:22:20 [main] [LogUtils] - Clear and Fill admin123 on By.xpath: //input[@placeholder='Password']
+[INFO] 04-12-2025 12:22:20 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:22 [main] [LogUtils] - Click on element with JS: By.cssSelector: .orangehrm-login-button
+[INFO] 04-12-2025 12:22:22 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:22 [main] [LogUtils] - Clicked on the element By.cssSelector: .orangehrm-login-button
+[INFO] 04-12-2025 12:22:22 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:24 [main] [LogUtils] - Verify element present By.cssSelector: .oxd-topbar-header-breadcrumb-module
+[INFO] 04-12-2025 12:22:24 [main] [LogUtils] - Scenario in ScenarioManager: io.cucumber.java.Scenario@20d87335
+[INFO] 04-12-2025 12:22:28 [main] [LogUtils] - Verify element visible By.cssSelector: .oxd-topbar-header-breadcrumb-module
+[INFO] 04-12-2025 12:22:31 [main] [LogUtils] - Verify element visible By.cssSelector: .oxd-topbar-header-breadcrumb-module
+[INFO] 04-12-2025 12:22:32 [main] [LogUtils] - ================ AFTER ALL ================
+[INFO] 04-12-2025 12:22:32 [main] [LogUtils] - count_totalTCs: 1
+[INFO] 04-12-2025 12:22:32 [main] [LogUtils] - count_passedTCs: 1
+[INFO] 04-12-2025 12:22:32 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 04-12-2025 12:22:32 [main] [LogUtils] - count_skippedTCs: 0
