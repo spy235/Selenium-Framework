@@ -2,8 +2,14 @@
 	"app_URL": "https://opensource-demo.orangehrmlive.com/",
 "Users": [
   {
-    "userKey": "app_User",
+    "userKey": "app_User_valid",
     "password": "admin123",
+    "username": "Admin"
+  },
+  
+  {
+    "userKey": "app_User_invalid",
+    "password": "admin1234",
     "username": "Admin"
   }
 ]

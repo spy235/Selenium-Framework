@@ -22,6 +22,11 @@ public class LoginSteps extends CommonPage {
     public void the_user_enters_valid_credentials(String userAlias) throws Exception {
     	getLogInPage().enterCreds(userAlias);
     }
+    
+    @When("the user enters invalid credentials for {string}")
+    public void the_user_enters_invalid_credentials(String userAlias) throws Exception {
+    	getLogInPage().enterCreds(userAlias);
+    }
 
     @When("the user clicks the login button")
     public void the_user_clicks_the_login_button(){
@@ -32,5 +37,10 @@ public class LoginSteps extends CommonPage {
     public void the_user_should_see_the_dashboard() {
     	getLogInPage().verifyDashboard();
     }
+    @Then("the user error message {string}")
+     public void the_user_error_message_Invalid_credentials(String message) {
+    	getLogInPage().verifyInvalidLoginMessage(message);
+    }
+    
 
 }
