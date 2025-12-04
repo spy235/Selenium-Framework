@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class User {
     public enum UserKey {
         @SerializedName("app_User")
-        app_User
+        app_User_valid,app_User_invalid
     }
 
     private String password;
