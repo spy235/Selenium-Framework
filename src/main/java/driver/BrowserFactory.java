@@ -1,8 +1,3 @@
-/**
- * © 2024 Cannatrek. All rights reserved.
- * 
- */
-
 package driver;
 
 import exceptions.HeadlessNotSupportedException;
