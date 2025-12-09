@@ -3,7 +3,6 @@ package driver;
 import org.openqa.selenium.WebDriver;
 
 /**
- * Manages the WebDriver instances for the Cannatrek framework.
  * 
  * <p>
  * This class uses a {@code ThreadLocal} to ensure that each thread has its own

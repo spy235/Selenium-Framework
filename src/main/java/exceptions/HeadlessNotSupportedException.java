@@ -1,7 +1,6 @@
 package exceptions;
 
 /**
- * Exception thrown when headless mode is not supported for a specified browser.
  * 
  * <p>
  * This exception extends {@link IllegalStateException} and is used to indicate

@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.cannatrek.automation.framework</groupId>
-	<artifactId>CannatrekAutomationFramework</artifactId>
+	<groupId>com.automation.framework</groupId>
+	<artifactId>AutomationFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CannatrekAutomationFramework</name>
+	<name>AutomationFramework</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,7 +51,7 @@
 		<extentreports-cucumber7-adapter.version>1.14.0</extentreports-cucumber7-adapter.version>
 		<mysql-connector-j.version>8.4.0</mysql-connector-j.version>
 		<!-- Suite XML path -->
-		<suite.feature>src/test/resources/suites/SuiteFeatureSigninCRM.xml</suite.feature>
+		<suite.feature>src/test/resources/suites/SuiteFeatureLoginCMS.xml</suite.feature>
 </properties>
 		
 
