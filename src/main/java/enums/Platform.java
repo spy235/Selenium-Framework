@@ -1,7 +1,6 @@
 package enums;
 
 /**
- * Enum representing the platforms supported in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following platforms:

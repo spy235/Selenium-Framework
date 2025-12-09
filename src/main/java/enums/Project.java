@@ -1,6 +1,5 @@
 package enums;
 /**
- * Enum representing the projects in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following projects:
@@ -13,5 +12,5 @@ package enums;
  * </p>
  */
 public enum Project {
-    MYEDEN, MYPHARMACY, MYDOCTOR, DW
+    // PROJECT_NAME
 }

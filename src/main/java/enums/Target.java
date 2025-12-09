@@ -1,6 +1,5 @@
 package enums;
 /**
- * Enum representing the target environments in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following target environments:

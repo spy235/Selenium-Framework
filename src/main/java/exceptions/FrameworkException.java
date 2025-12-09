@@ -2,7 +2,6 @@
 package exceptions;
 
 /**
- * Custom exception class for the Cannatrek framework.
  * 
  * <p>
  * This exception extends {@link RuntimeException} and is used to terminate the program when an exception occurs.

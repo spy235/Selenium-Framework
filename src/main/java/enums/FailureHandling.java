@@ -1,7 +1,6 @@
 package enums;
 
 /**
- * Enum representing the failure handling strategies in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following failure handling strategies:

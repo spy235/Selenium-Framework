@@ -4,7 +4,6 @@ import io.cucumber.java.Scenario;
 import utils.LogUtils;
 
 /**
- * Manages the Cucumber Scenario instances for the Cannatrek framework.
  * 
  * <p>
  * This class provides methods to set and retrieve the current Scenario

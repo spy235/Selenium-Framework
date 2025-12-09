@@ -1,7 +1,6 @@
 package enums;
 
 /**
- * Enum representing supported browser types in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following browser types:

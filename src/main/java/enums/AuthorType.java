@@ -1,7 +1,6 @@
 package enums;
 
 /**
- * Enum representing the authors in the Cannatrek framework.
  * 
  * <p>
  * This enum includes the following authors:
@@ -12,5 +11,5 @@ package enums;
  * </p>
  */
 public enum AuthorType {
-    SaiKumar, Rakesh
+    YASHAS
 }

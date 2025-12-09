@@ -1,8 +1,3 @@
-/**
- * © 2024 Cannatrek. All rights reserved.
- * 
- */
-
 package constants;
 
 import java.io.File;
@@ -11,9 +6,7 @@ import helpers.PropertiesHelpers;
 import helpers.SystemHelpers;
 import utils.ReportUtils;
 
-/**
- * This class contains constants used throughout the Cannatrek framework.
- * 
+/** 
  * <p>
  * It provides various constants for configuration values, file paths, and icons
  * used in the framework.

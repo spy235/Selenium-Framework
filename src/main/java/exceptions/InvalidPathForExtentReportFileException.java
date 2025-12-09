@@ -1,8 +1,6 @@
 package exceptions;
 
-/**
- * Exception thrown when an invalid path is provided for an Extent report file.
- * 
+/** * 
  * <p>
  * This exception extends {@link InvalidPathForFilesException} and is used to
  * indicate issues with the path for an Extent report file.

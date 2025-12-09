@@ -1,7 +1,6 @@
 package exceptions;
 
 /**
- * Exception thrown when an invalid path is provided for an Excel file.
  * 
  * <p>
  * This exception extends {@link InvalidPathForFilesException} and is used to indicate issues with the path for an Excel file.
