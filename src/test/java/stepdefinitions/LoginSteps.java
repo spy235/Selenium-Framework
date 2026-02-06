@@ -40,7 +40,5 @@ public class LoginSteps extends CommonPage {
     @Then("the user error message {string}")
      public void the_user_error_message_Invalid_credentials(String message) {
     	getLogInPage().verifyInvalidLoginMessage(message);
-    }
-    
-// hello this is to check branching
+    }    
 }

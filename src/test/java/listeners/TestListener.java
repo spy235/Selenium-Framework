@@ -12,7 +12,6 @@ import enums.Browser;
 import enums.CategoryType;
 import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
-import helpers.ScreenRecoderHelpers;
 import keywords.WebUI;
 import report.AllureManager;
 import report.ExtentReportManager;
@@ -34,14 +33,9 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
     static int count_skippedTCs;
     static int count_failedTCs;
 
-    private ScreenRecoderHelpers screenRecorder;
 
     public TestListener() {
-        try {
-            screenRecorder = new ScreenRecoderHelpers();
-        } catch (IOException | AWTException e) {
-            System.out.println(e.getMessage());
-        }
+       
     }
 
     public String getTestName(ITestResult result) {
@@ -139,11 +133,6 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
         ExtentReportManager.addDevices();
 
         ExtentReportManager.info(BrowserInfoUtils.getOSInfo());
-
-        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
-            screenRecorder.startRecording(getTestName(iTestResult));
-        }
-
     }
 
     @Override
@@ -158,10 +147,6 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
         //AllureManager.saveTextLog("Test case: " + getTestName(iTestResult) + " is passed.");
         //ExtentReports log operation for passed tests.
         ExtentReportManager.logMessage(Status.PASS, "Test case: " + getTestName(iTestResult) + " is passed.");
-
-        if (VIDEO_RECORD.trim().toLowerCase().equals(YES)) {
-            screenRecorder.stopRecording(true);
-        }
     }
 
     @Override
@@ -184,9 +169,7 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
         ExtentReportManager.addScreenShot(Status.FAIL, getTestName(iTestResult));
         ExtentReportManager.logMessage(Status.FAIL, iTestResult.getThrowable().toString());
 
-        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
-            screenRecorder.stopRecording(true);
-        }
+
 
     }
 
@@ -196,10 +179,6 @@ public class TestListener implements ITestListener, ISuiteListener, IInvokedMeth
         count_skippedTCs = count_skippedTCs + 1;
 
         ExtentReportManager.logMessage(Status.SKIP, "Test case: " + getTestName(iTestResult) + " is skipped.");
-
-        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
-            screenRecorder.stopRecording(true);
-        }
     }
 
     @Override

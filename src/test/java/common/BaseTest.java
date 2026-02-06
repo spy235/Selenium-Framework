@@ -29,7 +29,34 @@ public class BaseTest {
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();
-        WebDriver driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        WebDriver driver = ThreadGuard.
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		
+        		protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         return DriverManager.getDriver();
     }
