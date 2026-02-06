@@ -18,7 +18,7 @@ public class ScenarioManager {
 	/**
 	 * Retrieves the current Cucumber Scenario instance.
 	 * 
-	 * <p>
+	 * <p>0o
 	 * Logs the scenario details using {@code LogUtils.info}.
 	 * </p>
 	 * 
